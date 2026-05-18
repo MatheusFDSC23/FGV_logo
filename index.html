@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<!-- saved from url=(0081)file:///C:/Users/matheus.scosta/Downloads/analise_estrategica_estaleiros_fgv.html -->
+<html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Análise Estratégica: Setor de Estaleiros no Brasil | FGV IBRE</title>
+<style>
+  :root {
+    --fgv-navy: #002D4D;
+    --fgv-blue: #0C63AA;
+    --fgv-dark: #003A79;
+    --fgv-sky: #008BC9;
+    --fgv-light: #73BFE8;
+    --fgv-slate: #5C5B5F;
+    --fgv-mid: #88868B;
+    --fgv-soft: #AFAEB4;
+    --fgv-pale: #D7D9DD;
+    --white: #FFFFFF;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+   body {
+  font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  background: #FFFFFF;
+  color: #002D4D;
+  line-height: 1.7;
+  font-size: 15px;
+  text-align: justify;
+}
+
+  /* HEADER */
+  .header {
+    background: #002D4D;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .header-bar {
+    background: #0C63AA;
+    height: 5px;
+    width: 100%;
+  }
+
+  .header-inner {
+  padding:3x 6px 1px;
+  position: relative;
+}
+
+  .header-logo {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 20px;
+  }
+
+  .logo-mark {
+  width: 250px;
+  height: auto;
+  display: block;
+}
+
+  .logo-text {
+    font-size: 13px;
+    font-weight: 700;
+    color: #73BFE8;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .logo-sub {
+    font-size: 11px;
+    color: #88868B;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 400;
+  }
+
+  .header-tag {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #008BC9;
+  margin-bottom: 0px;
+}
+
+.header-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #FFFFFF;
+  line-height: 1.1;
+  max-width: 680px;
+  margin-bottom: 15px;
+}
+
+.header-subtitle {
+  font-size: 20px;
+  color: #73BFE8;
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
+
+  .header-meta {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+  }
+
+  .header-meta-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .meta-label {
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #88868B;
+    font-weight: 600;
+  }
+
+  .meta-value {
+    font-size: 13px;
+    color: #D7D9DD;
+  }
+
+  /* EXECUTIVE SUMMARY STRIP */
+  .exec-strip {
+    background: #003A79;
+    padding: 20px 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+
+  .exec-kpi {
+    text-align: center;
+  }
+
+  .kpi-num {
+    font-size: 28px;
+    font-weight: 700;
+    color: #73BFE8;
+    display: block;
+  }
+
+  .kpi-label {
+    font-size: 11px;
+    color: #AFAEB4;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  /* MAIN CONTENT */
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 48px;
+  }
+
+  /* SECTION */
+  .section {
+    padding: 52px 0 0;
+  }
+
+  .section:last-child {
+    padding-bottom: 60px;
+  }
+
+  .section-number {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #008BC9;
+    margin-bottom: 6px;
+  }
+
+  .section-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #002D4D;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #0C63AA;
+  }
+
+  /* SUBSECTION */
+  .subsection-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #003A79;
+    margin: 28px 0 10px;
+  }
+
+  p {
+    margin-bottom: 16px;
+    color: #2a2a2a;
+  }
+
+  /* INSIGHT BOX */
+  .insight {
+    background: #F0F7FF;
+    border-left: 4px solid #0C63AA;
+    padding: 14px 18px;
+    margin: 20px 0;
+    border-radius: 0 6px 6px 0;
+  }
+
+  .insight-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #0C63AA;
+    margin-bottom: 4px;
+  }
+
+  .insight p {
+    margin: 0;
+    font-size: 14px;
+    color: #002D4D;
+  }
+
+  /* HIGHLIGHT BOX */
+  .highlight-box {
+    background: #002D4D;
+    color: #FFFFFF;
+    padding: 20px 24px;
+    border-radius: 8px;
+    margin: 24px 0;
+  }
+
+  .highlight-box h4 {
+    font-size: 13px;
+    font-weight: 700;
+    color: #73BFE8;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  .highlight-box p {
+    color: #D7D9DD;
+    font-size: 14px;
+    margin: 0;
+  }
+
+  /* DATA CARDS */
+  .data-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin: 24px 0;
+  }
+
+  .data-card {
+    border: 1px solid #D7D9DD;
+    border-radius: 8px;
+    padding: 16px 18px;
+    background: #FFFFFF;
+  }
+
+  .data-card-label {
+    font-size: 11px;
+    color: #88868B;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 4px;
+  }
+
+  .data-card-value {
+    font-size: 22px;
+    font-weight: 700;
+    color: #002D4D;
+  }
+
+  .data-card-desc {
+    font-size: 12px;
+    color: #5C5B5F;
+    margin-top: 4px;
+  }
+
+  /* CHART CONTAINERS */
+  .chart-wrap {
+    margin: 28px 0;
+    padding: 20px;
+    border: 1px solid #D7D9DD;
+    border-radius: 8px;
+    background: #FFFFFF;
+  }
+
+  .chart-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: #002D4D;
+    margin-bottom: 4px;
+  }
+
+  .chart-subtitle {
+    font-size: 11px;
+    color: #88868B;
+    margin-bottom: 16px;
+  }
+
+  /* PRODUCT TABLE */
+  .product-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    margin: 20px 0;
+  }
+
+  .product-card {
+    border: 1px solid #D7D9DD;
+    border-radius: 8px;
+    padding: 16px;
+    background: #FFFFFF;
+    position: relative;
+  }
+
+  .product-card.featured {
+    border-color: #0C63AA;
+    border-width: 2px;
+    background: #F0F7FF;
+  }
+
+  .product-badge {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    display: inline-block;
+  }
+
+  .badge-primary {
+    background: #0C63AA;
+    color: #FFFFFF;
+  }
+
+  .badge-secondary {
+    background: #D7D9DD;
+    color: #5C5B5F;
+  }
+
+  .badge-high {
+    background: #003A79;
+    color: #73BFE8;
+  }
+
+  .product-name {
+    font-size: 14px;
+    font-weight: 700;
+    color: #002D4D;
+    margin-bottom: 6px;
+  }
+
+  .product-desc {
+    font-size: 12px;
+    color: #5C5B5F;
+    line-height: 1.5;
+  }
+
+  /* USE CASES */
+  .use-case-list {
+    margin: 8px 0 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .use-case-list li {
+    font-size: 12px;
+    color: #003A79;
+    padding: 3px 0;
+    padding-left: 14px;
+    position: relative;
+  }
+
+  .use-case-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 5px;
+    height: 5px;
+    background: #008BC9;
+    border-radius: 50%;
+  }
+
+  /* PRIORITY TABLE */
+  .priority-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 13px;
+  }
+
+  .priority-table th {
+    background: #002D4D;
+    color: #73BFE8;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 10px 14px;
+    text-align: left;
+    font-weight: 600;
+  }
+
+  .priority-table td {
+    padding: 10px 14px;
+    border-bottom: 1px solid #D7D9DD;
+    vertical-align: top;
+    color: #2a2a2a;
+  }
+
+  .priority-table tr:last-child td {
+    border-bottom: none;
+  }
+
+  .priority-table tr:hover td {
+    background: #F0F7FF;
+  }
+
+  .prio-tag {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  .prio-high { background: #002D4D; color: #73BFE8; }
+  .prio-med { background: #0C63AA; color: #FFFFFF; }
+  .prio-low { background: #D7D9DD; color: #5C5B5F; }
+
+  /* CONCLUSION BANNER */
+  .conclusion-banner {
+    background: linear-gradient(135deg, #002D4D 0%, #003A79 100%);
+    border-radius: 10px;
+    padding: 32px 36px;
+    margin: 32px 0;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 24px;
+    align-items: start;
+  }
+
+  .potential-badge {
+    background: #008BC9;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 16px 20px;
+    text-align: center;
+    min-width: 120px;
+  }
+
+  .potential-label {
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #D7D9DD;
+    margin-bottom: 6px;
+    display: block;
+  }
+
+  .potential-value {
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    display: block;
+  }
+
+  .conclusion-text h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #73BFE8;
+    margin-bottom: 8px;
+  }
+
+  .conclusion-text p {
+    color: #D7D9DD;
+    font-size: 13px;
+    margin: 0;
+  }
+
+  /* NEXT STEPS */
+  .steps-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+    margin: 20px 0;
+  }
+
+  .step-card {
+    border-left: 3px solid #0C63AA;
+    padding: 14px 16px;
+    background: #F0F7FF;
+    border-radius: 0 8px 8px 0;
+  }
+
+  .step-num {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    color: #008BC9;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+  }
+
+  .step-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: #002D4D;
+    margin-bottom: 6px;
+  }
+
+  .step-desc {
+    font-size: 12px;
+    color: #5C5B5F;
+    line-height: 1.5;
+  }
+
+  /* DIVIDER */
+  .divider {
+    border: none;
+    border-top: 1px solid #D7D9DD;
+    margin: 32px 0 0;
+  }
+
+  /* FOOTER */
+  .footer {
+    background: #002D4D;
+    padding: 24px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 60px;
+  }
+
+  .footer-copy {
+    font-size: 11px;
+    color: #88868B;
+  }
+
+  .footer-tag {
+    font-size: 11px;
+    color: #73BFE8;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  /* CHART LEGEND */
+  .chart-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11px;
+    color: #5C5B5F;
+  }
+
+  .legend-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+
+  /* HORIZONTAL BAR */
+  .hbar-wrap { margin: 6px 0; }
+  .hbar-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #5C5B5F;
+    margin-bottom: 3px;
+  }
+  .hbar-track {
+    height: 18px;
+    background: #D7D9DD;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .hbar-fill {
+    height: 100%;
+    border-radius: 3px;
+    transition: width 0.6s ease;
+  }
+
+  @media (max-width: 700px) {
+    .header-inner { padding: 24px 20px; }
+    .container { padding: 0 20px; }
+    .exec-strip { grid-template-columns: repeat(2,1fr); padding: 16px 20px; }
+    .data-grid, .product-grid, .steps-grid { grid-template-columns: 1fr; }
+    .conclusion-banner { grid-template-columns: 1fr; }
+    .footer { padding: 16px 20px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="header-bar"></div>
+
+  <div class="header-inner">
+
+    <div class="header-logo">
+<img src="https://raw.githubusercontent.com/MatheusFDSC23/FGV_logo/338a5ba99be987d163f315abb47ec135c1974ef3/logo.png" class="logo-mark">    </div>
+
+    <div class="header-tag">
+      Inteligência Comercial B2B · Análise Estratégica de Setor
+    </div>
+
+    <div class="header-title">
+      Setor de Estaleiros no Brasil: Potencial Comercial para os Produtos Digitais
+    </div>
+
+    <div class="header-subtitle">
+      Avaliação estratégica do mercado, perfil de empresas e mapeamento de oportunidades
+    </div>
+
+    <div class="header-meta">
+
+      <div class="header-meta-item">
+        <span class="meta-label">Elaborado em</span>
+        <span class="meta-value">Abril de 2026</span>
+      </div>
+
+      <div class="header-meta-item">
+        <span class="meta-label">Base de dados</span>
+        <span class="meta-value">636 CNPJs únicos</span>
+      </div>
+
+      <div class="header-meta-item">
+        <span class="meta-label">Destinatário</span>
+        <span class="meta-value">Time Comercial FGV IBRE</span>
+      </div>
+
+      <div class="header-meta-item">
+        <span class="meta-label">Classificação</span>
+        <span class="meta-value">Uso Interno</span>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- KPI STRIP -->
+<div class="exec-strip">
+  <div class="exec-kpi">
+    <span class="kpi-num">636</span>
+    <span class="kpi-label">Empresas únicas na base</span>
+  </div>
+  <div class="exec-kpi">
+    <span class="kpi-num">94</span>
+    <span class="kpi-label">Grandes (capital &gt; R$30M)</span>
+  </div>
+  <div class="exec-kpi">
+    <span class="kpi-num">MÉDIO-ALTO</span>
+    <span class="kpi-label">Potencial comercial avaliado</span>
+  </div>
+  <div class="exec-kpi">
+    <span class="kpi-num">RJ · AM · PA</span>
+    <span class="kpi-label">Clusters prioritários</span>
+  </div>
+</div>
+
+<!-- MAIN CONTENT -->
+<div class="container">
+
+  <!-- SECTION 1: INTRODUCAO AO SETOR -->
+  <div class="section">
+    <div class="section-number">Seção 01</div>
+    <div class="section-title">Introdução ao Setor de Estaleiros no Brasil</div>
+
+    <p>O setor de estaleiros ocupa uma posição estrutural singular na economia brasileira. Não se trata apenas de uma indústria de construção naval: trata-se de um nó de convergência entre a indústria pesada, a logística de commodities, a infraestrutura de petróleo e gás e o comércio exterior. A relevância do setor se expressa tanto pelo volume de investimentos que mobiliza quanto pela extensão da cadeia produtiva que articula, envolvendo metalurgia, siderurgia, equipamentos industriais, tecnologia embarcada e mão de obra especializada de alto custo.</p>
+
+    <p>Historicamente, o Brasil foi um dos maiores polos da construção naval no mundo, ocupando a segunda posição global em capacidade instalada no início dos anos 2000, impulsionado pelos programas de renovação da frota da Petrobras e pelos contratos de plataformas offshore vinculados à exploração do pré-sal. O colapso do ciclo de investimentos em meados da década de 2010, agravado pela crise da Petrobras e pelo desfecho da Operação Lava Jato, provocou uma retração severa, com fechamento de grandes unidades e demissão de dezenas de milhares de trabalhadores. O setor vive hoje uma fase de recuperação seletiva, marcada pelo surgimento de novos projetos no segmento de embarcações de apoio, barcaças fluviais e reparos navais, especialmente na região Norte.</p>
+
+    <div class="insight">
+      <div class="insight-label">Insight estratégico</div>
+      <p>Setores em recuperação após ciclos de retração tendem a apresentar maior demanda por inteligência econômica externa, pois a instabilidade de custos e a necessidade de precificação robusta aumentam o valor percebido de dados qualificados. Este é o contexto atual dos estaleiros brasileiros.</p>
+    </div>
+
+    <div class="subsection-title">Relação com Petróleo, Gás e Logística</div>
+    <p>A interdependência do setor com a indústria de petróleo e gás é estrutural. Embarcações de apoio offshore (PSVs, AHTSs, FPSOs), plataformas e módulos industriais representam a parcela de maior valor agregado da produção naval brasileira. Os ciclos de encomenda são diretamente determinados pelos planos de investimento da Petrobras, pelas rodadas de licitação da ANP e pela variação do preço internacional do petróleo. Qualquer ruptura nesse nexo provoca efeitos imediatos sobre a carteira de contratos dos estaleiros.</p>
+
+    <p>Paralelamente, o crescimento da hidrovia amazônica e do modal fluvial no Centro-Oeste impulsiona a demanda por barcaças e embarcações de passageiros, segmento crescentemente presente na base de empresas analisada, sobretudo nos estados do Amazonas e Pará. A sazonalidade do agronegócio e a necessidade de escoamento de grãos via rios internos cria demanda cíclica mas consistente por embarcações de carga.</p>
+
+    <div class="subsection-title">Por que esse setor demanda inteligência econômica</div>
+    <p>A estrutura de custos de um estaleiro é intensiva em insumos voláteis: chapas e perfis de aço respondem por 30 a 40% do custo direto de uma embarcação; sistemas de propulsão e equipamentos eletromecânicos importados expõem as empresas à volatilidade cambial; combustíveis industriais afetam diretamente os custos de fabricação e os testes de mar. Contratos de longa duração, muitas vezes plurianuais, tornam a gestão de reajustes um desafio crítico de competitividade. Empresas que não dispõem de dados confiáveis sobre a evolução de preços ao produtor, custos de construção e ambiente macroeconômico estão expostas a erosões de margem que podem comprometer projetos inteiros.</p>
+
+    <div class="highlight-box">
+      <h4>A dor central do setor</h4>
+      <p>Contratos de construção naval assinados hoje serão executados ao longo de 18 a 48 meses. A ausência de cláusulas de reajuste baseadas em índices reconhecidos e confiáveis expõe o construtor naval ao risco de entregar uma embarcação com margem negativa em relação ao momento da assinatura. Este é o problema que o portfólio FGV IBRE resolve diretamente.</p>
+    </div>
+  </div>
+
+  <!-- SECTION 2: ANALISE DA BASE -->
+  <div class="section">
+    <div class="section-number">Seção 02</div>
+    <div class="section-title">Análise da Base de Empresas</div>
+
+    <p>A base disponibilizada contém 721 registros referentes a 636 CNPJs únicos, indicando que parte das empresas aparece com mais de uma entrada, possivelmente por conta de filiais ou registros duplicados. O total de empresas únicas é o parâmetro correto para mensurar o universo endereçável.</p>
+
+    <div class="data-grid">
+      <div class="data-card">
+        <div class="data-card-label">Total de registros</div>
+        <div class="data-card-value">721</div>
+        <div class="data-card-desc">636 CNPJs únicos ativos</div>
+      </div>
+      <div class="data-card">
+        <div class="data-card-label">Capital social mediano</div>
+        <div class="data-card-value">R$110k</div>
+        <div class="data-card-desc">Sinaliza base majoritariamente pequena</div>
+      </div>
+      <div class="data-card">
+        <div class="data-card-label">Capital social médio</div>
+        <div class="data-card-value">R$77M</div>
+        <div class="data-card-desc">Distorção por grandes players</div>
+      </div>
+    </div>
+
+<div class="chart-wrap" style="page-break-before: always;">
+      <div class="chart-title">Distribuição geográfica das empresas</div>
+  <div class="chart-subtitle">Top 10 estados por número de registros na base</div>
+  <div id="uf-chart" style="position:relative; width:100%; height:280px;">
+    <canvas id="ufCanvas" role="img" aria-label="Gráfico de barras mostrando distribuição de estaleiros por estado. Rio de Janeiro lidera com 140, seguido de Amazonas (119) e Pará (77)." width="822" height="280" style="display: block; box-sizing: border-box; height: 280px; width: 822px;">
+      Estados: RJ 140, AM 119, PA 77, SC 69, SP 56, RS 44, MA 39, BA 34, PR 29, EX 28.
+    </canvas>
+  </div>
+</div>
+
+    <div class="insight">
+      <div class="insight-label">Cluster regional</div>
+      <p>O trinômio RJ-AM-PA concentra 336 empresas, ou 47% do universo total. Rio de Janeiro abriga os grandes estaleiros offshore; Amazonas e Pará dominam o segmento fluvial e de pequenas embarcações. São Paulo e Sul do Brasil complementam com empresas de reparos e serviços industriais navais.</p>
+    </div>
+
+    <div class="chart-wrap">
+      <div class="chart-title">Distribuição por faixa de capital social</div>
+      <div class="chart-subtitle">Proxy de porte financeiro das empresas</div>
+      <div style="margin-top:8px;">
+        <div class="hbar-wrap">
+          <div class="hbar-label"><span>Grande (&gt;R$30M)</span><span>234 empresas (32%)</span></div>
+          <div class="hbar-track"><div class="hbar-fill" style="width:100%; background:#002D4D;"></div></div>
+        </div>
+        <div class="hbar-wrap" style="margin-top:10px;">
+          <div class="hbar-label"><span>Média (R$4,8M–R$30M)</span><span>166 empresas (23%)</span></div>
+          <div class="hbar-track"><div class="hbar-fill" style="width:71%; background:#0C63AA;"></div></div>
+        </div>
+        <div class="hbar-wrap" style="margin-top:10px;">
+          <div class="hbar-label"><span>Pequena (R$360k–R$4,8M)</span><span>160 empresas (22%)</span></div>
+          <div class="hbar-track"><div class="hbar-fill" style="width:68%; background:#008BC9;"></div></div>
+        </div>
+        <div class="hbar-wrap" style="margin-top:10px;">
+          <div class="hbar-label"><span>Micro (até R$360k)</span><span>161 empresas (22%)</span></div>
+          <div class="hbar-track"><div class="hbar-fill" style="width:69%; background:#73BFE8;"></div></div>
+        </div>
+      </div>
+      <div style="margin-top:12px; font-size:11px; color:#88868B;">Fonte: base cadastral analisada · Metodologia: CAPITAL_FAIXA extraído do CNPJ</div>
+    </div>
+
+    <div class="subsection-title">As empresas são grandes o suficiente para consumir produtos premium?</div>
+    <p>A resposta é heterogênea, mas o universo de alto potencial é expressivo. Das 636 empresas únicas, aproximadamente 94 possuem capital social declarado superior a R$30 milhões, representando o núcleo mais qualificado da base. Acrescentando as empresas na faixa média (R$4,8M a R$30M), o universo relevante chega a cerca de 260 empresas, ou 41% do total. Este é o segmento que representa a oportunidade comercial imediata para os produtos FGV IBRE.</p>
+
+    <p>Importante ressaltar que o capital social declarado subestima o porte real de muitas empresas, especialmente as que são subsidiárias de grupos maiores ou que passaram por reestruturações sem atualização dos dados cadastrais. Uma análise complementar cruzando CNPJ com faturamento declarado no Simples Nacional ou com informações de RAIS poderia revelar um universo maior.</p>
+
+    <div class="subsection-title">O setor é concentrado ou pulverizado?</div>
+    <p>A base revela uma estrutura dual característica de indústrias capital-intensivas em recuperação: um núcleo concentrado de grandes players (os 94 com capital acima de R$30M respondem por parcela desproporcional do valor produzido do setor) coexistindo com uma cauda longa de micro e pequenas empresas, muitas delas prestadores de serviço, estaleiros de reparo local ou empresas de apoio técnico. Esta estrutura é relevante para a estratégia de abordagem comercial: a venda premium deve focar no núcleo, enquanto o produto standard pode endereçar a cauda.</p>
+
+    <div class="chart-wrap">
+      <div class="chart-title">Maturidade do setor: distribuição por tempo de atividade</div>
+      <div class="chart-subtitle">Número de empresas por faixa etária (anos de operação)</div>
+      <div id="age-chart" style="position:relative; width:100%; height:260px;">
+        <canvas id="ageCanvas" role="img" aria-label="Gráfico de distribuição de empresas por tempo de atividade. Empresas com 10 a 25 anos são as mais numerosas." width="822" height="260" style="display: block; box-sizing: border-box; height: 260px; width: 822px;">Distribuição etária das empresas no setor de estaleiros.</canvas>
+      </div>
+    </div>
+
+    <div class="insight">
+      <div class="insight-label">Insight sobre maturidade</div>
+      <p>101 empresas (16% do total) têm mais de 35 anos de operação, indicando um núcleo maduro e consolidado que certamente já opera com maior sofisticação de gestão. As 393 empresas fundadas a partir de 2010 representam o crescimento pós-PAC e pós-boom do pré-sal, um segmento mais jovem que pode ter menor cultura de uso de dados externos, mas também maior abertura a ferramentas analíticas modernas.</p>
+    </div>
+
+    <div class="subsection-title">Há sinais de sofisticação analítica no setor?</div>
+
+<p>A base analisada apresenta sinais relevantes de sofisticação operacional e gerencial em parte das empresas do setor. Para apoiar essa leitura, foi utilizado um score elaborado a partir das variáveis disponíveis na própria base de dados, incluindo porte da empresa (TAMANHO), faixa de capital social (CAPITAL_FAIXA), natureza jurídica, tempo de atividade (FAIXA_IDADE), presença de matriz ou filial e características operacionais associadas ao CNAE principal e secundário. O score foi utilizado como uma proxy de maturidade empresarial e potencial de demanda por inteligência econômica estruturada.</p>
+
+<p>Empresas posicionadas nas faixas superiores do score tendem a apresentar estruturas administrativas mais sofisticadas, maior exposição a contratos de longo prazo e processos mais robustos de planejamento financeiro, compras e gestão de risco. Além disso, a presença de grupos internacionais e holdings industriais na base reforça a percepção de que existe um núcleo relevante de empresas já habituadas ao uso de indicadores econômicos, cláusulas de reajuste e ferramentas de acompanhamento macroeconômico.</p>
+
+<p>Essa sofisticação não está distribuída de forma homogênea no setor. Ela se concentra principalmente nos grandes estaleiros offshore do Rio de Janeiro e em empresas industriais de maior porte ligadas à cadeia naval e logística. Ainda assim, observa-se também um grupo crescente de empresas médias em expansão, especialmente no segmento fluvial da região Norte, que pode representar uma oportunidade importante de entrada comercial para produtos analíticos premium.</p>
+    </div>
+  <!-- SECTION 3: DINÂMICA ECONÔMICA -->
+  <div class="section">
+    <div class="section-number">Seção 03</div>
+    <div class="section-title">Dinâmica Econômica do Setor</div>
+
+    <p>Compreender os drivers econômicos do setor de estaleiros é condição para construir argumentos de venda relevantes. Cada driver representa uma dor específica que os dados FGV IBRE podem mitigar.</p>
+
+    <div class="subsection-title">Estrutura de custos e volatilidade de insumos</div>
+    <p>O aço é o insumo dominante na estrutura de custos de uma embarcação, respondendo por 30 a 40% do custo direto dependendo do tipo de navio. Chapas grossas, perfis estruturais, tubos de aço e vergalhões são adquiridos de grandes siderúrgicas nacionais ou importados, com preços altamente correlacionados à variação cambial e ao mercado global de minério de ferro. A volatilidade do aço ao longo de 2020-2022 (com picos históricos seguidos de correções abruptas) criou perdas expressivas para estaleiros que tinham contratos fechados sem cláusulas de reajuste adequadas.</p>
+
+    <p>Equipamentos de propulsão, sistemas elétricos embarcados, componentes eletrônicos e itens de automação são majoritariamente importados, expondo o setor à variação do câmbio real e aos ciclos de disponibilidade global de componentes. A crise logística de 2021-2022 demonstrou a fragilidade desta dependência. Combustíveis industriais, utilizados tanto na fabricação quanto nos testes de operação, acrescentam mais um vetor de volatilidade ao portfólio de custos.</p>
+
+    <div class="chart-wrap">
+      <div class="chart-title">Principais drivers de custo e sua exposição à volatilidade</div>
+      <div class="chart-subtitle">Peso estimado na estrutura de custos diretos e intensidade de variação</div>
+      <div id="cost-chart" style="position:relative; width:100%; height:320px;">
+        <canvas id="costCanvas" role="img" aria-label="Gráfico radar ou de barras mostrando os principais drivers de custo nos estaleiros e sua volatilidade." width="822" height="320" style="display: block; box-sizing: border-box; height: 320px; width: 822px;">Custos: Aço/Metais 35%, Mão de obra 28%, Equipamentos importados 20%, Combustíveis 10%, Outros 7%.</canvas>
+      </div>
+    </div>
+
+    <div class="subsection-title">Dependência de ciclos de investimento</div>
+    <p>O setor de estaleiros é altamente cíclico por natureza: encomendas de embarcações dependem de expectativas de rentabilidade futura dos armadores, dos planos de expansão de operadores de petróleo, das políticas de renovação de frota estatal e dos programas de infraestrutura do governo federal. O monitoramento do PIB industrial, dos indicadores de confiança empresarial e das expectativas de inflação fornece o ambiente de antecipação necessário para que gestores de estaleiros tomem decisões de capacidade com maior segurança.</p>
+
+    <div class="subsection-title">Riscos estruturais e oportunidades emergentes</div>
+    <p>Os riscos estruturais incluem a dependência excessiva de um único cliente (Petrobras), a concorrência de estaleiros asiáticos em construções de maior série, a dificuldade de acesso a crédito de longo prazo no Brasil e a volatilidade regulatória. Do lado das oportunidades, destacam-se a expansão da hidrovia amazônica, os projetos de geração de energia eólica offshore que demandarão embarcações de instalação e manutenção, a renovação da frota de embarcações fluviais e a crescente demanda por navios de pesquisa e apoio ambiental. Cada uma dessas oportunidades carrega incertezas de custo que os dados FGV IBRE ajudam a quantificar.</p>
+
+    <div class="highlight-box">
+      <h4>Cadeia produtiva e efeito multiplicador</h4>
+      <p>Um estaleiro que compra dados da FGV IBRE frequentemente repassa exigências analíticas para sua cadeia de fornecedores. Empresas de metalurgia, fabricantes de tubos e conexões de aço, fornecedores de tintas anticorrosivas e prestadores de serviços de mão de obra especializada são potenciais clientes secundários identificados a partir de uma prospecção no setor naval. O mapeamento da cadeia pode multiplicar o universo endereçável.</p>
+    </div>
+  </div>
+
+  <!-- SECTION 4: CONEXÃO COM PRODUTOS FGV -->
+  <div class="section">
+    <div class="section-number">Seção 04</div>
+    <div class="section-title">Conexão com o Portfólio FGVDADOS Premium</div>
+
+    <p>O portfólio FGV IBRE oferece cobertura ampla e precisa dos principais vetores de custo e decisão do setor de estaleiros. A conexão entre os dados disponíveis e as necessidades do cliente potencial é direta e quantificável, o que facilita a demonstração de valor durante a abordagem comercial.</p>
+
+    <div class="product-grid">
+      <div class="product-card featured">
+        <span class="product-badge badge-high">Prioridade Alta</span>
+        <div class="product-name">IPA Industrial — Metalurgia e Aço</div>
+        <div class="product-desc">Séries de produtos siderúrgicos (bobinas, chapas grossas, vergalhões, tubos de aço), metalurgia dos não-ferrosos e estruturas metálicas. Cobre diretamente o insumo dominante na construção naval.</div>
+        <ul class="use-case-list">
+          <li>Reajuste de contratos plurianuais com cláusula IPA metalurgia</li>
+          <li>Gestão de risco de compras de aço no médio prazo</li>
+          <li>Benchmarking de variação de custos com concorrentes</li>
+        </ul>
+      </div>
+
+      <div class="product-card featured">
+        <span class="product-badge badge-high">Prioridade Alta</span>
+        <div class="product-name">IPA — Derivados de Petróleo e Combustíveis</div>
+        <div class="product-desc">Óleo diesel, óleos lubrificantes, querosenes e GLP. Essenciais para gestão de custos operacionais de fabricação e para testes de propulsão e comissionamento de embarcações.</div>
+        <ul class="use-case-list">
+          <li>Previsão de custo operacional de estaleiro</li>
+          <li>Cláusulas de reajuste em contratos de manutenção e reparo</li>
+          <li>Análise de sensibilidade de projetos ao preço do petróleo</li>
+        </ul>
+      </div>
+
+      <div class="product-card featured">
+        <span class="product-badge badge-high">Prioridade Alta</span>
+        <div class="product-name">INCC — Custo de Construção</div>
+        <div class="product-desc">Mão de obra especializada (armador, eletricista, operador de máquina, engenheiro) e materiais para estrutura e instalação. Proxy robusto para escalada de custos em obras industriais pesadas.</div>
+        <ul class="use-case-list">
+          <li>Referência para reajuste de mão de obra em contratos de EPC</li>
+          <li>Planejamento de expansão de capacidade instalada</li>
+          <li>Análise de viabilidade de projetos de retrofit e modernização</li>
+        </ul>
+      </div>
+
+      <div class="product-card">
+        <span class="product-badge badge-primary">Prioridade Média</span>
+        <div class="product-name">IPA — Máquinas, Equipamentos e Elétricos</div>
+        <div class="product-desc">Motores elétricos, geradores, transformadores, bombas hidráulicas e equipamentos de transmissão. Relevante para a parcela de equipamentos fabricados no país ou adquiridos de fornecedores nacionais.</div>
+        <ul class="use-case-list">
+          <li>Reajuste de contratos de fornecimento de equipamentos</li>
+          <li>Análise de make or buy para sistemas embarcados nacionais</li>
+        </ul>
+      </div>
+
+      <div class="product-card">
+        <span class="product-badge badge-primary">Prioridade Média</span>
+        <div class="product-name">Monitor do PIB e Índices de Confiança</div>
+        <div class="product-desc">Séries do PIB industrial mensais, Índice de Confiança Empresarial e Sondagem da Construção. Essenciais para análise de contexto macroeconômico e tomada de decisão de investimento.</div>
+        <ul class="use-case-list">
+          <li>Planejamento estratégico e projeções de demanda</li>
+          <li>Apresentações para conselho e investidores</li>
+          <li>Decisões de contratação e expansão de quadro</li>
+        </ul>
+      </div>
+
+      <div class="product-card">
+        <span class="product-badge badge-secondary">Prioridade Complementar</span>
+        <div class="product-name">Índices de Obras Portuárias (FGV/DNIT)</div>
+        <div class="product-desc">Índice Nacional de Custo de Obras Portuárias (estruturas em concreto armado, fundações metálicas, dragagem, enrocamento). Referência setorial reconhecida por órgãos reguladores.</div>
+        <ul class="use-case-list">
+          <li>Reajuste de contratos com portos organizados e autoridades portuárias</li>
+          <li>Elaboração de propostas para licitações públicas</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="priority-table" style="margin-top:28px;">
+      <table class="priority-table" style="border-collapse:collapse; width:100%;">
+        <thead>
+          <tr>
+            <th>Aplicação prática</th>
+            <th>Produto FGV IBRE</th>
+            <th>Prioridade</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Reajuste de contratos de construção naval</td>
+            <td>IPA Metalurgia + INCC mão de obra</td>
+            <td><span class="prio-tag prio-high">Alta</span></td>
+          </tr>
+          <tr>
+            <td>Gestão de custos de insumos (aço e combustíveis)</td>
+            <td>IPA Industrial + IPA Derivados de Petróleo</td>
+            <td><span class="prio-tag prio-high">Alta</span></td>
+          </tr>
+          <tr>
+            <td>Precificação de propostas e licitações</td>
+            <td>IPA Estágios de Processamento (Bens Intermediários)</td>
+            <td><span class="prio-tag prio-high">Alta</span></td>
+          </tr>
+          <tr>
+            <td>Planejamento de investimentos e expansão</td>
+            <td>Monitor do PIB + Índice de Confiança Empresarial</td>
+            <td><span class="prio-tag prio-med">Média</span></td>
+          </tr>
+          <tr>
+            <td>Análise de ambiente inflacionário</td>
+            <td>IGP-M + IPA geral + IPC</td>
+            <td><span class="prio-tag prio-med">Média</span></td>
+          </tr>
+          <tr>
+            <td>Contratos com infraestrutura portuária pública</td>
+            <td>Índice de Obras Portuárias (DNIT)</td>
+            <td><span class="prio-tag prio-low">Complementar</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- SECTION 5: PROPOSTA DE VALOR -->
+  <div class="section">
+    <div class="section-number">Seção 05</div>
+    <div class="section-title">Proposta de Valor Comercial</div>
+
+    <p>A construção de argumentos de venda para este setor deve partir das dores reais dos gestores de estaleiros, não dos atributos genéricos dos produtos. A seguir, uma estrutura de argumentação centrada no cliente.</p>
+
+    <div class="subsection-title">Por que uma empresa de estaleiro compraria dados da FGV IBRE?</div>
+
+    <div class="highlight-box">
+      <h4>Argumento central</h4>
+      <p>"Seu próximo contrato de construção será executado em 24 meses. O aço que você vai comprar no próximo semestre pode custar 30% mais do que custa hoje. Os dados FGV IBRE são a única referência reconhecida por árbitros, clientes e financiadores para que você possa incluir uma cláusula de reajuste credível na sua proposta e não perder margem."</p>
+    </div>
+
+    <div class="product-grid" style="margin-top:20px;">
+      <div class="product-card" style="border-left:3px solid #002D4D; border-radius:0 8px 8px 0;">
+        <div class="product-name">Dor 1: Erosão de margem em contratos longos</div>
+        <div class="product-desc" style="margin-top:6px;">A solução: cláusulas de reajuste baseadas no IPA metalúrgico e no INCC de mão de obra, índices reconhecidos pelo Judiciário brasileiro e aceitos por grandes clientes como Petrobras, armadores e órgãos públicos.</div>
+      </div>
+      <div class="product-card" style="border-left:3px solid #0C63AA; border-radius:0 8px 8px 0;">
+        <div class="product-name">Dor 2: Compra de insumos sem referência de preço</div>
+        <div class="product-desc" style="margin-top:6px;">A solução: monitoramento mensal da variação do IPA para aço, combustíveis e equipamentos, permitindo timing de compra mais eficiente e negociação fundamentada com fornecedores.</div>
+      </div>
+      <div class="product-card" style="border-left:3px solid #008BC9; border-radius:0 8px 8px 0;">
+        <div class="product-name">Dor 3: Incerteza para decisões de capacidade</div>
+        <div class="product-desc" style="margin-top:6px;">A solução: Monitor do PIB industrial mensal e Índice de Confiança Empresarial como termômetro antecedente da demanda por embarcações, reduzindo o risco de over ou underinvestment em expansão.</div>
+      </div>
+      <div class="product-card" style="border-left:3px solid #73BFE8; border-radius:0 8px 8px 0;">
+        <div class="product-name">Dor 4: Pressão de mão de obra especializada</div>
+        <div class="product-desc" style="margin-top:6px;">A solução: INCC com detalhamento de mão de obra (armador, eletricista, soldador, engenheiro) como base para negociação coletiva, definição de pisos contratuais e previsão orçamentária de projetos.</div>
+      </div>
+    </div>
+
+    <div class="subsection-title">Ganchos de prospecção recomendados</div>
+    <p>O momento mais eficaz para prospecção é quando a empresa está em processo de elaboração de proposta para um grande contrato ou quando acaba de ser afetada por um evento de volatilidade de custos. Os seguintes ganchos são recomendados para a abordagem inicial:</p>
+
+    <table class="priority-table" style="border-collapse:collapse; width:100%;">
+      <thead>
+        <tr>
+          <th>Gancho de abertura</th>
+          <th>Argumento</th>
+          <th>Perfil alvo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Nova rodada de investimentos da Petrobras</td>
+          <td>"Com a nova fase de contratos, como sua empresa está protegendo margem ao longo da execução?"</td>
+          <td>Estaleiros offshore (RJ, SP)</td>
+        </tr>
+        <tr>
+          <td>Alta recente nos preços do aço</td>
+          <td>"Nos últimos 12 meses, o IPA de metalurgia variou X%. Você tem essa referência nos seus contratos?"</td>
+          <td>Construtores navais de grande porte</td>
+        </tr>
+        <tr>
+          <td>Expansão das hidrovias (PAC)</td>
+          <td>"Com os novos contratos de construção de barcaças, como está sendo feita a projeção de custo de insumos?"</td>
+          <td>Estaleiros fluviais (AM, PA, MA)</td>
+        </tr>
+        <tr>
+          <td>Disputas contratuais / arbitragem</td>
+          <td>"Em caso de revisão contratual, quais índices sua empresa usa? O IPA FGV é o mais aceito pelo Judiciário."</td>
+          <td>Empresas com histórico de litígios contratuais</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="subsection-title">Segmentos prioritários dentro do setor</div>
+
+    <div class="steps-grid" style="margin-top:16px;">
+      <div class="step-card">
+        <div class="step-num">Segmento 1</div>
+        <div class="step-title">Estaleiros offshore de grande porte</div>
+        <div class="step-desc">RJ e SP. Capital social acima de R$30M. Score alto na base. Clientes da Petrobras. Maior capacidade de pagamento e maior necessidade de dados para contratos complexos.</div>
+      </div>
+      <div class="step-card">
+        <div class="step-num">Segmento 2</div>
+        <div class="step-title">Operadores de reparos navais</div>
+        <div class="step-desc">RJ, SC, RS. Contratos recorrentes de manutenção e modernização. Uso intenso de INCC mão de obra e IPA equipamentos para reajuste de serviços continuados.</div>
+      </div>
+      <div class="step-card">
+        <div class="step-num">Segmento 3</div>
+        <div class="step-title">Construtores fluviais em crescimento</div>
+        <div class="step-desc">AM, PA, MA. Porte médio em crescimento acelerado. Janela de entrada para fidelização no momento de expansão, com custo de aquisição menor e potencial de crescimento de conta.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 6: CONCLUSÃO -->
+  <div class="section">
+    <div class="section-number">Seção 06</div>
+    <div class="section-title">Conclusão e Recomendação Estratégica</div>
+
+    <div class="conclusion-banner">
+      <div class="potential-badge">
+        <span class="potential-label">Potencial do setor</span>
+        <span class="potential-value">MÉDIO-ALTO</span>
+      </div>
+      <div class="conclusion-text">
+        <h3>Classificação e justificativa</h3>
+        <p>O setor de estaleiros apresenta potencial comercial médio-alto para os produtos FGVDADOS Premium. A justificativa combina a existência de um núcleo qualificado de empresas (94 de grande porte e ~166 de porte médio), a alta compatibilidade dos produtos FGV com as dores reais do setor (contratos de longo prazo, volatilidade de insumos, mão de obra especializada) e o momento de retomada de investimentos que torna o setor receptivo a ferramentas de gestão de risco. O fator limitante é a fragmentação e o baixo capital declarado da maioria das empresas, o que restringe o universo de conversão imediata.</p>
+      </div>
+    </div>
+  <hr class="divider">
+
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  <div class="footer-copy">© 2026 FGV IBRE — Instituto Brasileiro de Economia · Documento para uso interno da equipe comercial</div>
+  <div class="footer-tag">FGVDADOS Premium · Análise Estratégica de Setor</div>
+</div>
+
+<!-- CHARTS -->
+<script 
+src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</script>
+<script>
+window.addEventListener('DOMContentLoaded', function () {
+  const NAVY = '#002D4D';
+  const BLUE = '#0C63AA';
+  const DARK = '#003A79';
+  const SKY = '#008BC9';
+  const LIGHT = '#73BFE8';
+  const SOFT = '#AFAEB4';
+  const PALE = '#D7D9DD';
+
+  const commonOptions = {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { display: false } }
+  };
+
+  new Chart(document.getElementById('ufCanvas'), {
+  type: 'bar',
+  data: {
+    labels: ['RJ', 'AM', 'PA', 'SC', 'SP', 'RS', 'MA', 'BA', 'PR', 'EX'],
+    datasets: [{
+  label: 'Empresas',
+  data: [140, 119, 77, 69, 56, 44, 39, 34, 29, 28],
+  backgroundColor: [NAVY, NAVY, BLUE, BLUE, DARK, SKY, SKY, LIGHT, LIGHT, SOFT],
+  borderRadius: 4,
+  borderSkipped: false,
+  barPercentage: 0.9,
+  categoryPercentage: 0.9
+}]
+  },
+  options: {
+    ...commonOptions,
+    layout: {
+      padding: {
+        right: 10
+      }
+    },
+    scales: {
+       x: {
+        offset: true,
+        grid: {
+          display: false,
+          drawBorder: false
+        },
+        ticks: {
+          color: '#5C5B5F',
+          font: { size: 12 }
+        }
+      },
+      y: {
+        grid: {
+          display: false,
+          drawBorder: false
+        },
+        ticks: {
+          color: '#5C5B5F',
+          font: { size: 11 }
+        },
+        beginAtZero: true
+      }
+    },
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        callbacks: {
+          label: ctx => ' ' + ctx.raw + ' empresas'
+        }
+      }
+    }
+  }
+});
+
+  new Chart(document.getElementById('ageCanvas'), {
+    type: 'bar',
+    data: {
+      labels: ['< 2 anos', '2-5 anos', '5-10 anos', '10-15 anos', '15-20 anos', '20-25 anos', '25-30 anos', '30-35 anos', '35-40 anos', '40-45 anos', '45-50 anos', '> 50 anos'],
+      datasets: [{
+        label: 'Empresas',
+        data: [114, 99, 116, 128, 56, 54, 40, 25, 21, 13, 10, 39],
+        backgroundColor: [
+          LIGHT, LIGHT, SKY, SKY,
+          BLUE, BLUE, DARK, DARK,
+          NAVY, NAVY, NAVY, NAVY
+        ],
+        borderRadius: 3,
+        borderSkipped: false
+      }]
+    },
+    options: {
+      ...commonOptions,
+      scales: {
+        x: {
+          grid: { display: false },
+          ticks: { color: '#5C5B5F', font: { size: 10 }, maxRotation: 45 }
+        },
+        y: {
+          grid: { color: '#D7D9DD' },
+          ticks: { color: '#5C5B5F', font: { size: 11 } },
+          beginAtZero: true
+        }
+      },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: { label: ctx => ' ' + ctx.raw + ' empresas' }
+        }
+      }
+    }
+  });
+
+  new Chart(document.getElementById('costCanvas'), {
+    type: 'bar',
+    data: {
+      labels: [
+        'Aço e Metais\n(chapas, perfis)',
+        'Mão de obra\nespecializada',
+        'Equipamentos\nimportados',
+        'Combustíveis\nindustriais',
+        'Tintas e\nrevestimentos',
+        'Eletrônica\nembarcada'
+      ],
+      datasets: [
+        {
+          label: 'Peso no custo (%)',
+          data: [35, 28, 20, 10, 4, 3],
+          backgroundColor: NAVY,
+          borderRadius: 4,
+          order: 2,
+          yAxisID: 'y'
+        },
+        {
+          label: 'Volatilidade (índice)',
+          data: [9, 5, 8, 9, 6, 7],
+          type: 'line',
+          borderColor: SKY,
+          backgroundColor: 'rgba(0,139,201,0.1)',
+          pointBackgroundColor: SKY,
+          pointRadius: 5,
+          tension: 0.3,
+          order: 1,
+          yAxisID: 'y2'
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      scales: {
+        x: {
+          grid: { display: false },
+          ticks: { color: '#5C5B5F', font: { size: 10 } }
+        },
+        y: {
+          position: 'left',
+          grid: { color: '#D7D9DD' },
+          ticks: { color: '#5C5B5F', font: { size: 11 }, callback: v => v + '%' },
+          beginAtZero: true,
+          max: 45
+        },
+        y2: {
+          position: 'right',
+          grid: { display: false },
+          ticks: { color: SKY, font: { size: 11 }, callback: v => v + '/10' },
+          beginAtZero: true,
+          max: 12
+        }
+      },
+      plugins: {
+        legend: { display: true, position: 'top', labels: { color: '#5C5B5F', font: { size: 11 }, boxWidth: 12, padding: 16 } },
+        tooltip: {
+          callbacks: {
+            label: ctx => {
+              if (ctx.dataset.yAxisID === 'y') return ' Peso: ' + ctx.raw + '%';
+              return ' Volatilidade: ' + ctx.raw + '/10';
+            }
+          }
+        }
+      }
+    }
+  });
+}); // end DOMContentLoaded
+</script>
+
+
+
+</body></html>
